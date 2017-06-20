@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/14c9b67b247e73d44f7a3f2d3db8a2414f06b0ba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_8df9262624f621322ebd71d4307b46e81f44925d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/3f9755923adcded0b7ff37116c3d1aea956602dc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_b14d495a147836627fc68484a8659e04b3cbce8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/08c73f183d381e18f8621073a9f1900a1b7eca19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_33f9efa20803686cf40f262aaf473efc224c1179.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/b2b7f26c4c1433e982c69617e772c93edbcff502/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_2485e7b1521e9250c261de7c07f44595dd6ea4d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_7d3cb6fa60741f73a275b0d29e61f9b4fb3ac837.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/f0ab97fbcd4cae8ae450d633e125ba482e737577/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_b0df73740c03d153829fbfd489ce67de6af64d55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_b504a16f3cf5b494bbc57eba0b33c649127b5da0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/7baed1015f94e4ba9850c3b96f8f61ba4da19561/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_63dc95227405a0d7ec0856a99dee5ab0a4c055d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/670e80d5c88c984cfb2fecd043e1701e7355c43a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_f2a4a26dfbd44378f2e6739f67557e4c382497ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/4cfeae12f5d33dc9e2b00ba4995bce70b8008c31/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_589ec16fd510bdf0ed2a63c8cf2fd274c55a7572.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8f7f5245ba34c83cfa5d47cebaa7fc4d09a4c4a5">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a89c248180aa03ded1f861ce3e2afed0d61560e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_981539ffb74be63f15929866779372e6df0b8db5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/2c4d3ff2d36a36b9d8573baa2fe372b48ca5c2a6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_c6ecc243a64026b547c4f99ff2dff350bba59d52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/m0kk4/.android/build-cache/479f662603b106d0e02b910bea508e5a683a9246/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/m0kk4/AndroidStudioProjects/TorciaUmana/app/build/intermediates/pre-dexed/debug/classes_c9cb359ae929d26723038ef97e5dc593aa0ca1a7.jar" />
+    </item>
+
+</items>
