@@ -1,2 +1,0 @@
-# SpyTorch
-Spyware Android App
