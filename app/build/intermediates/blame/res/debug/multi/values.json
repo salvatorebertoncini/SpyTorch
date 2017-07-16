@@ -1,0 +1,57 @@
+[
+    {
+        "outputFile": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 50,
+                    "endOffset": 150
+                },
+                "from": {
+                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 155,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 238,
+                    "endLine": 9,
+                    "endColumn": 12,
+                    "endOffset": 305
+                },
+                "from": {
+                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/styles.xml"
+                }
+            }
+        ]
+    }
+]

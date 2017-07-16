@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/merged/debug/drawable-ldpi/btn_switch_off.png",
+        "source": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/drawable-ldpi/btn_switch_off.png"
+    },
+    {
+        "merged": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/merged/debug/drawable-ldpi/btn_switch_on.png",
+        "source": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/drawable-ldpi/btn_switch_on.png"
+    }
+]

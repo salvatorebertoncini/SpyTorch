@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/nofiamma.jpg",
+        "source": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/drawable-ldpi/nofiamma.jpg"
+    },
+    {
+        "merged": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/fiamma.jpg",
+        "source": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/drawable-ldpi/fiamma.jpg"
+    }
+]

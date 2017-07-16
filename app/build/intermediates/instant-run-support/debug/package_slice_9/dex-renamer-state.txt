@@ -1,0 +1,4 @@
+#Fri Jun 30 16:49:42 CEST 2017
+base.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
+renamed.0=classes.dex
+file.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/merged/debug/raw/light_switch_off.mp3",
+        "source": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/raw/light_switch_off.mp3"
+    },
+    {
+        "merged": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/merged/debug/raw/light_switch_on.mp3",
+        "source": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/raw/light_switch_on.mp3"
+    }
+]

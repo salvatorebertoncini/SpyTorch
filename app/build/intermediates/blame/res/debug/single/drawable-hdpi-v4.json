@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/nofiamma.jpg",
+        "source": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/drawable-hdpi/nofiamma.jpg"
+    },
+    {
+        "merged": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/fiamma.jpg",
+        "source": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/drawable-hdpi/fiamma.jpg"
+    },
+    {
+        "merged": "/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/radial_background.xml",
+        "source": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/drawable-hdpi/radial_background.xml"
+    }
+]
