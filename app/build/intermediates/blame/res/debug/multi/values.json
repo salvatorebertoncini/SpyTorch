@@ -11,7 +11,14 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/strings.xml"
+                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 48,
+                        "endOffset": 103
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 150
                 },
                 "from": {
-                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/strings.xml"
+                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 50,
+                        "endOffset": 155
+                    }
                 }
             },
             {
@@ -31,25 +45,41 @@
                     "startLine": 4,
                     "startColumn": 4,
                     "startOffset": 155,
-                    "endLine": 6,
+                    "endLine": 10,
                     "endColumn": 12,
-                    "endOffset": 233
+                    "endOffset": 441
                 },
                 "from": {
-                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/styles.xml"
+                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 238,
-                    "endLine": 9,
+                    "startOffset": 446,
+                    "endLine": 13,
                     "endColumn": 12,
-                    "endOffset": 305
+                    "endOffset": 601
                 },
                 "from": {
-                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/styles.xml"
+                    "file": "/Users/lucadalseno/StudioProjects/FlashLight/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
                 }
             }
         ]

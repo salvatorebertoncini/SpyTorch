@@ -1,13 +1,13 @@
 #Internal package file, do not edit.
-#Mon Jun 26 17:33:54 CEST 2017
+#Tue Oct 03 11:37:12 CEST 2017
 8.set=ANDROID_RESOURCE
 1.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
-1.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
-3.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_863a86ac1d3c22f73b4301823111c2c030e28a09/classes.dex
-3.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_863a86ac1d3c22f73b4301823111c2c030e28a09
+1.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/raw/light_switch_off.mp3
+3.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/raw/light_switch_on.mp3
+3.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
 4.set=ANDROID_RESOURCE
-5.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
-5.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/raw/light_switch_on.mp3
+5.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_863a86ac1d3c22f73b4301823111c2c030e28a09
+5.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_863a86ac1d3c22f73b4301823111c2c030e28a09/classes.dex
 7.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
 7.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 11.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/radial_background.xml
@@ -17,17 +17,17 @@
 11.set=ANDROID_RESOURCE
 0.set=ANDROID_RESOURCE
 7.set=ANDROID_RESOURCE
-3.set=DEX
+3.set=ANDROID_RESOURCE
 10.set=ANDROID_RESOURCE
 0.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
 0.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/menu/activity_main.xml
 6.set=ANDROID_RESOURCE
-2.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/raw/light_switch_off.mp3
+2.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
 2.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
-4.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+4.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/fiamma.jpg
 4.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
 6.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
-6.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/fiamma.jpg
+6.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
 10.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
 10.file=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_/resources.arsc
 8.base=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/res/resources-debug.ap_
@@ -35,5 +35,5 @@
 2.set=ANDROID_RESOURCE
 9.set=DEX
 count=12
-5.set=ANDROID_RESOURCE
+5.set=DEX
 1.set=ANDROID_RESOURCE

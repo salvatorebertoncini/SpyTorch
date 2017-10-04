@@ -7,17 +7,17 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="edc3e6a27176887d332f2225488db8d4203bab19">
+        sha1="38139f61e1dbfa96faba4a7048c0d8aa2db57ecf">
         <dex dex="/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1138c31c6c6ac48b51ab1df7373880ba4be63bd8/classes.dex" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/lucadalseno/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_81577c1b4a32671501e62cc6bcbd8e90fc82ccc9/classes.dex" />
+        <dex dex="/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_81577c1b4a32671501e62cc6bcbd8e90fc82ccc9.jar" />
     </item>
     <item
         is-multidex="true"
