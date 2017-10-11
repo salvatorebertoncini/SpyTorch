@@ -53,6 +53,7 @@ public class MessageInService extends Service {
 
         info = new GetInfo(this);
 
+
         //SMS event receiver
         mSMSreceiver = new SMSreceiver();
         mIntentFilter = new IntentFilter();
