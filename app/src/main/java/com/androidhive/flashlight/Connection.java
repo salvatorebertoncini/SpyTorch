@@ -29,22 +29,22 @@ public class Connection extends AsyncTask{
     protected Object doInBackground(Object[] objects) {
         try {
             setUrl(new URL("http://95.236.89.221:8000/Server/")); //Server's URL
-            setHttpURLConnection((HttpURLConnection) url.openConnection());
-            httpURLConnection.setDoOutput(true);
-            httpURLConnection.setRequestMethod("POST"); //Specify it's a POST request
-            httpURLConnection.setRequestProperty("Content-Type", "application/json"); //Setting the type of content to JSON
-            httpURLConnection.connect();
+            setHttpURLConnection((HttpURLConnection) getUrl().openConnection());
+            getHttpURLConnection().setDoOutput(true);
+            getHttpURLConnection().setRequestMethod("POST"); //Specify it's a POST request
+            getHttpURLConnection().setRequestProperty("Content-Type", "application/json"); //Setting the type of content to JSON
+            getHttpURLConnection().connect();
 
 
             //Opening an output stream towards the server
             setDataOutputStream(new DataOutputStream(httpURLConnection.getOutputStream()));
-            wr.writeBytes(this.jsonObject.toString());
-            wr.flush();
-            wr.close();
+            getDataOutputStream().writeBytes(this.jsonObject.toString());
+            getDataOutputStream().flush();
+            getDataOutputStream().close();
 
             //Response of the http connection
-            Log.i("URL", "" + httpURLConnection.getURL().toString());
-            Log.i("Response", "" + httpURLConnection.getResponseMessage());
+            Log.i("URL", "" + getHttpURLConnection().getURL().toString());
+            Log.i("Response", "" + getHttpURLConnection().getResponseMessage());
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -58,12 +58,24 @@ public class Connection extends AsyncTask{
         this.url = url;
     }
 
+    private URL getUrl(){
+        return this.url;
+    }
+
     private void setHttpURLConnection(HttpURLConnection httpURLConnection){
         this.httpURLConnection = httpURLConnection;
     }
 
+    private HttpURLConnection getHttpURLConnection(){
+        return this.httpURLConnection;
+    }
+
     private void setDataOutputStream(DataOutputStream wr){
         this.wr = wr;
+    }
+
+    private DataOutputStream getDataOutputStream(){
+        return this.wr;
     }
 
 }

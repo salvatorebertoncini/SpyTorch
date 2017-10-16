@@ -1,4 +1,4 @@
-#Wed Oct 11 17:09:52 CEST 2017
+#Mon Oct 16 11:01:04 CEST 2017
 base.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
 renamed.0=classes.dex
 file.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex

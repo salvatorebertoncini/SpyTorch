@@ -1,7 +1,4 @@
-#Fri Oct 06 21:12:01 CEST 2017
-base.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_863a86ac1d3c22f73b4301823111c2c030e28a09
-renamed.1=classes2.dex
+#Mon Oct 16 11:01:17 CEST 2017
+base.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1138c31c6c6ac48b51ab1df7373880ba4be63bd8/classes.dex
-base.1=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1138c31c6c6ac48b51ab1df7373880ba4be63bd8
-file.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_863a86ac1d3c22f73b4301823111c2c030e28a09/classes.dex
+file.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
