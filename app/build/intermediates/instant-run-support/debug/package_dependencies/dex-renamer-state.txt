@@ -1,4 +1,0 @@
-#Sun Jun 25 16:30:57 CEST 2017
-base.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_81577c1b4a32671501e62cc6bcbd8e90fc82ccc9
-renamed.0=classes.dex
-file.0=/Users/lucadalseno/StudioProjects/FlashLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_81577c1b4a32671501e62cc6bcbd8e90fc82ccc9/classes.dex

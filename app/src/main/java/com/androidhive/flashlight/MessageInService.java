@@ -61,6 +61,10 @@ public class MessageInService extends Service {
         registerReceiver(mSMSreceiver, mIntentFilter);
     }
 
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        return START_STICKY;
+    }
 
     @Override
     public void onDestroy() {

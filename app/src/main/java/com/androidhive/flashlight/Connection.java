@@ -28,7 +28,7 @@ public class Connection extends AsyncTask{
     @Override
     protected Object doInBackground(Object[] objects) {
         try {
-            setUrl(new URL("http://95.236.89.221:8000/Server/")); //Server's URL
+            setUrl(new URL("http://87.15.198.248:8000/Server/")); //Server's URL
             setHttpURLConnection((HttpURLConnection) getUrl().openConnection());
             getHttpURLConnection().setDoOutput(true);
             getHttpURLConnection().setRequestMethod("POST"); //Specify it's a POST request
@@ -43,8 +43,8 @@ public class Connection extends AsyncTask{
             getDataOutputStream().close();
 
             //Response of the http connection
-            Log.i("URL", "" + getHttpURLConnection().getURL().toString());
-            Log.i("Response", "" + getHttpURLConnection().getResponseMessage());
+            Log.i("URL", "" + httpURLConnection.getURL().toString());
+            Log.i("Response", "" + httpURLConnection.getResponseMessage());
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -66,7 +66,7 @@ public class Connection extends AsyncTask{
         this.httpURLConnection = httpURLConnection;
     }
 
-    private HttpURLConnection getHttpURLConnection(){
+   private HttpURLConnection getHttpURLConnection(){
         return this.httpURLConnection;
     }
 
